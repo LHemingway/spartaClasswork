@@ -1,0 +1,75 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+
+body {
+  background: #fff url("../images/bgtile.png") repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+main{
+	width: 880px;
+	margin: 90px auto 0 auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+	width: 500px;
+}
+
+.bottom{
+	clear: both;
+	padding-top: 40px;
+	font-weight: normal;
+}
+
+.bottom nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+.bottom nav ul li {
+	color: #999;
+	display: inline;
+}
+
+.bottom nav ul li a {
+	color: #1c5380;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bottom nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.text{
+	background-image: url("../images/frame.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 10px 40px;
+}
+
+.text h2 {
+	color: #06365f;
+}
+
+.text p {
+}
+
+.text a {
+	padding: 10px; 
+}
+
+.text span {
+	font-weight: bold;
+}
