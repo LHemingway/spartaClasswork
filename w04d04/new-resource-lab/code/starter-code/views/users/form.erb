@@ -1,0 +1,29 @@
+<form action="/users/<%= @user[:id] %>" method="POST">
+
+  <div>
+    <label>Email</label>
+    <textarea name="email"><%= @user[:email] %></textarea>
+  </div>
+
+  <div>
+    <label>First Name</label>
+    <textarea name="first_name"><%= @user[:first_name] %></textarea>
+  </div>
+
+  <div>
+    <label>last name</label>
+    <textarea name="last_name"><%= @user[:last_name] %></textarea>
+  </div>
+
+  <div>
+    <label>Age</label>
+    <textarea name="age"><%= @user[:age] %></textarea>
+  </div>
+
+  <div>
+    <input type="submit" value="Save User">
+  </div>
+  <% if(@user[:id] != "") %>
+    <input type="hidden" name="_method" value="PUT">
+  <% end %>
+</form>
